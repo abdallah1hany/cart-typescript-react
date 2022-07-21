@@ -16,9 +16,7 @@ return(
   <Container className="bg-white shadow-sm mb-3">
   
   <Routes>
-    <Route path="/" element={<Home/>}></Route>
-    <Route path="/store" element={<Store/>}></Route>
-    <Route path="/about" element={<About/>}></Route>
+    <Route path="/" element={<Store/>}></Route>
   </Routes>
 </Container>
 </ShoppingCartProvider>
